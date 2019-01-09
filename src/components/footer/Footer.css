@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #222222;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer div{
+    width: 300px;
+    flex-grow: 1;
+    padding: 0 3%;
+    box-sizing: border-box;
+}

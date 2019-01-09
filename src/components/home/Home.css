@@ -136,3 +136,12 @@ Banner*/
     background-size: cover;
     margin: 0 10px;
 }
+
+/*
+Preview*/
+
+.preview{
+    background-color: white;
+    width: 80%;
+    margin:0 auto;
+}

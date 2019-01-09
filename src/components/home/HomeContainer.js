@@ -4,6 +4,7 @@ import Nav from "../nav/Nav";
 import Slide from "./Slide";
 import Banner from "./Banner";
 import History from "./History";
+import Preview from "./Preview";
 
 
 class HomeContainer extends Component {
@@ -15,6 +16,7 @@ class HomeContainer extends Component {
                 <Slide/>
                 <History/>
                 <Banner/>
+                <Preview/>
 
             </div>
         );
