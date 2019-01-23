@@ -1,32 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
 
 
+@keyframes arrow {
+    0%{
+        margin-bottom: 30px;
+    }
+    50%{
+        margin-bottom: 70px;
+    }
+    100%{
+        margin-bottom: 30px;
+
+    }
+}
+
+body{
+    background-color: #e8e8e87d;
+}
+
 /*
 Slide*/
+
 
 .slide{
     width: 100%;
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/434311/pexels-photo-434311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../../assets/3-copia.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:white;
+}
+.back span{
+    margin-bottom: 70px;
+    font-size: 36px;
+    animation: arrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
 /*
 HISTORY
 */
 
 .history{
     width: 100%;
-    background-color: white;
     height: auto;
-    margin: 150px 0 50px 0;
+    margin: 0px 0 50px 0;
+    padding: 150px 0 50px 0;
 }
 .history hr{
     background-color: #937C6F;
-    height: 3px;
+    height: 6px;
     border: none;
+    border-radius: 2px;
 }
 .flex{
     display: flex;
@@ -60,13 +97,14 @@ HISTORY
     box-sizing: border-box;
 }
 .history-photo {
-    width: 450px;
+    width: 350px;
     flex-grow: 1;
     box-sizing: border-box;
 
 }
 .header-img{
     margin-left: 70px;
+    margin-top: 50px;
     width: 300px;
     height: 400px;
     background-image: url('https://images.pexels.com/photos/8859/drink-beer.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
@@ -143,5 +181,5 @@ Preview*/
 .preview{
     background-color: white;
     width: 80%;
-    margin:0 auto;
+    margin:100px auto;
 }

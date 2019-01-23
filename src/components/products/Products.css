@@ -1,0 +1,38 @@
+.card-product{
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    min-height: 572px;
+    color:black !important;
+}
+.card_img{
+    width: 300px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.card_text{
+    width: 500px;
+    flex-grow: 1;
+
+}
+.card_text hr{
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: #937C6F;
+    margin-left: 0
+;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}

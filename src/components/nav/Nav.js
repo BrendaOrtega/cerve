@@ -10,8 +10,8 @@ class Nav extends Component {
                 <img src="http://cerveceriaallende.mx/wp-content/uploads/2015/04/logo.png" alt="logo_allende"/>
                 <div className="menu">
                     <p>Cervezas</p>
-                    <p>Blog</p>
                     <p>Puntos de Venta</p>
+                    <p>Blog</p>
                     <p>Contacto</p>
                 </div>
             </div>
