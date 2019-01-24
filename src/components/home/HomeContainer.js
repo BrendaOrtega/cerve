@@ -19,7 +19,14 @@ class HomeContainer extends Component {
                 <History/>
 
                 <Banner/>
-                <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" uk-slider="center: true">
+
+
+
+
+
+                <h2 style={{textAlign:"center", marginTop:"50px"}}>Nuestras Cervezas</h2>
+
+                <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" uk-slider="center: true, autoplay:true">
 
                     <ul className="uk-slider-items uk-grid">
                         <li className="uk-width-3-4">
@@ -39,7 +46,7 @@ class HomeContainer extends Component {
 
                     </ul>
 
-                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="#"
                        uk-slidenav-previous uk-slider-item="previous"></a>
                     <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
                        uk-slider-item="next"></a>
